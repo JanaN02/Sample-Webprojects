@@ -1,0 +1,237 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB.dev</title>
+    <!--CSS link-->
+    <link rel="stylesheet" href="/style.css">
+
+    <!--Bootstrap CSS Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!--== Font-awesome link ==-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--== Bootstrap Icons link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+</head>
+<body>
+
+     <!--Container-->
+    <div class="container">
+         <!--Nav bar-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/Index.html" class="navbar-brand">WEB.dev</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/Index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Main Courses</li>
+                        <li class="divider"></li>
+                        <li><a href="#course">HTML</a></li>
+                        <li><a href="#course">CSS</a></li>
+                        <li><a href="#course">Java Sript</a></li>
+                        <li><a href="#course">Python</a></li>
+                        <li><a href="#course">Java</a></li>
+                        <li><a href="#course" style="font-family: 'Poppins', sans-serif; color:orange">See More</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ceriticate Exams <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Quiz Exams</li>
+                        <li class="divider"></li>
+                        <li><a href="#course2">Fullstack-Quiz</a></li>
+                        <li><a href="#course2">Python-Quiz</a></li>
+                        <li><a href="#course2">AI-Test</a></li>
+                        <li><a href="#course2">Internet-Quiz</a></li>
+                        <li><a href="#course2">Java-Quiz</a></li>
+                        <li><a href="#course2"  style="font-family: 'Poppins', sans-serif; color:orange">See More</a></li>
+                    </ul>
+                </li>
+                <button class="btn btn-warning navbar-btn" style="margin:0 10px 0 20px;">Skills Requirements</button>
+                <button class="btn btn-warning navbar-btn button2"><a href="/signin.html" style="color: white; text-decoration:none;">Sign In<i class="fa fa-sign-in" style="padding-left:10px; color:white"></i></a></button>
+            </ul>
+        </div>
+        <hr>
+        
+        <!--Home-Section-->
+        <div class="home" style="margin-top: 110px;">
+               <h1 class="name1">Learn To Easy</h1>
+               <h3 class="name2">with the largest developer site</h3>
+               <div class="searchbox">
+                <input type="search" class="search" placeholder="Search your courses">
+                <button class="button1"><i class="fa fa-search"></i></button>
+               </div>
+               <h3 class="name2" style="padding-top: 20px; text-decoration:underline; cursor:pointer; color:black;">Not sure where to begin?</h3>
+
+            <div class="row" id="course">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"><span class="icon feature_box_col_one"><i class="fa fa-html5 i1"></i></span>
+                        <h5>HTML</h5>
+                        <p class="text-justify">HTML is the standard markup language for Web pages.With HTML you can create your own Website.HTML is easy to learn - You will enjoy it!In this HTML tutorial, you will find more than 200 examples.With our online "Try it Yourself" </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"><span class="icon feature_box_col_three"><i class="fa fa-css3 i2"></i></span>
+                        <h5>CSS-3</h5>
+                        <p class="text-justify">CSS is the language we use to style an HTML document.CSS describes how HTML elements should be displayed.This tutorial will teach you CSS from basic to advanced.Learn from over 300 examples! With our editor, you can edit the CSS.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"><span class="icon feature_box_col_two"><i class='fa fa-wifi i3'></i></span>
+                        <h5>AWS Coloud  </h5>
+                        <p class="text-justify">This tutorial gives an overview of the AWS cloud.It will teach you AWS concepts, services, security, architecture, and pricing.In addition, this tutorial will help you prepare for the AWS Certified Cloud Practitioner Exam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        <!--Courses Section-->
+        <div class="course-type">
+            <div class="row" id="course2">
+                 <div class="col-lg-6 col-md-6 col-12 courses-det">
+                    <h5 class="course-txt" style="color:black;">Courses Of</h5>
+                    <h1 class="course-tit" style="color:orange;">Full Stack Development</h1>
+                    <p class="course-para text-justify"> It refers to the development of both front end(client side) and back end(server side) portions of web application.Full stack web developers have the ability to design complete web applications and websites. They work on the frontend, backend, database and debugging of web applications or websites.</p>
+                    <button class="btn btn-warning button2">Enrol Now</button>
+                 </div>
+                 <div class="col-lg-6 col-md-6 col-12 image-fs">
+                    <img class="img-responsive" src="/images/fullstacker-img.jpg" alt="fullstack/img">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 image-fs">
+                   <img class="img-responsive" style="width:500px;" src="/images/cloud-computing-img.png" alt="fullstack/img">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 courses-det">
+                    <h5 class="course-txt" style="color:black;">Courses Of</h5>
+                    <h1 class="course-tit" style="color:orange;">Cloud Computing</h1>
+                    <p class="course-para text-justify">In this Cloud Computing Tutorial, you will learn the basics concepts of cloud computing which include multiple service models, deployment models, the infrastructure of cloud computing, and virtualization in cloud computing. We have also covered the advanced concepts of cloud computing, which will help you to learn more depth about cloud computing.</p>
+                    <button class="btn btn-warning button2">Enrol Now</button>
+                </div>
+           </div>
+           <hr>
+           <div class="row">
+               <div class="col-lg-6 col-md-6 col-12 courses-det">
+                   <h5 class="course-txt" style="color:black;">Courses Of</h5>
+                   <h1 class="course-tit" style="color:orange;">Cyber Security</h1>
+                   <p class="course-para text-justify">Cybersecurity is the way to prevent servers, devices, electronic systems, and networks from digital attacks, and damage. It is essential for the integrity of data and systems in every field where data is present. Various forms of cybersecurity threats includes virus, worms, malware, ransomware, phishing attacks, and hacking. </p>
+                   <button class="btn btn-warning button2">Enrol Now</button>
+               </div>
+               <div class="col-lg-6 col-md-6 col-12 image-fs">
+                   <img class="img-responsive" style="width:420px;" src="/images/cyber-security-img.png" alt="fullstack/img">
+               </div>
+            </div>
+           <hr>
+           <div class="row">
+              <div class="col-lg-6 col-md-6 col-12 image-fs">
+                  <img class="img-responsive" style="width:500px;" src="/images/machine learning-img.png" alt="fullstack/img">
+              </div>
+              <div class="col-lg-6 col-md-6 col-12 courses-det">
+                  <h5 class="course-txt" style="color:black;">Courses Of</h5>
+                  <h1 class="course-tit" style="color:orange;">Machine Learning</h1>
+                  <p class="course-para text-justify">Machine Learning”. Now that’s a word that packs a punch! Machine learning is hot stuff these days! And why won’t it be? Almost every “enticing” new development in the field of Computer Science and Software Development, in general, has something related to machine learning behind the veils.</p>
+                  <button class="btn btn-warning button2">Enrol Now</button>
+              </div>
+            </div>
+            <hr>
+        </div>
+
+        <!--Footer Section-->
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-3 col-lg-6 col-xl-3">
+                    <h5 class="footer-h5"  style="font-weight: 700; font-size:25px;">Web.Dev</h5>
+                    <p class="text-justify" style="font-size: 15px; font-family:900;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nulla consequuntur quos molestiae, est id facere dolorum perferendis nisi repellat.</p>
+
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 para9" style="margin-left: 40px;">
+                    <h5 class="footer-h5">Sections</h5>
+                    <div class="para-footer">
+                    <p>
+                        <a href="#">Home</a>
+                    </p>
+                    <p>
+                        <a href="#">About</a>
+                    </p>
+                    <p>
+                        <a href="#">Courses</a>
+                    </p>
+                    <p>
+                        <a href="#">Sign in</a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2">
+                    <h5 class="footer-h5">Important Courses</h5>
+                    <div class="para-footer">
+                    <p>
+                        <a href="">HTML & CSS</a>
+                    </p>
+                    <p>
+                        <a href="">Java-Script</a>
+                    </p>
+                    <p>
+                        <a href="">Python</a>
+                    </p>
+                    <p>
+                        <a href="">See more</a>
+                    </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 contact">
+                    <h5 class="footer-h5">Contact</h5>
+                    <div class="para-footer" style="margin-top: 10px;">
+                    <p>
+                        <i class="fa fa-home"></i>  Coimbatore, Tamilnadu
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope"></i>  njana3231@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa fa-phone"></i>  +91 8083432319
+                    </p>
+                    <p>
+                        <i class="fa fa-print"></i>  +01 335 654 88
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size: 13px; font-weight:700; display:flex; justify-content:center; align-items:center; margin:10px 0 20px 0">Copyright @2023 All rights reserved by : Jana N</p>
+        </div>
+            
+       </div>
+           
+                
+            
+        
+      
+
+
+        
+        
+    
+
+
+    <!--Js bootstrap link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+     
+    <!--Jquery bootstrap link-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
