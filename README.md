@@ -8,6 +8,10 @@ Welcome to my collection of Sample-Webprojects.These project that I have using H
 2, Netflix Clone (Home Page)<br>
 3, Studying Course Website
 
+## Technologies Used
+1, HTML & CSS
+2, Bootstrap
+
 ### More About
 
    Visit <a href="https://www.linkedin.com/in/jana-n-9a3b2925a">Linkedin</a>
